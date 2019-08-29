@@ -3,14 +3,40 @@
     src: url('../fonts/GothamPro-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
-}
+  }
 
-@font-face {
+  @font-face {
     font-family: 'GothamPro';
     src: url('../fonts/GothamPro-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
+  }
+
+.header{
+  background-color: #27273e;
 }
 
+.company__contact-phone{
+  color: #ffffff;
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-size: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
+body{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx--font-smoothing: antialiased;
+}
 
+.company__info-schedule{
+  opacity: 0.7;   
+  color: #ec1e79;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+}
